@@ -1,0 +1,2 @@
+# scrapy_tumblr
+scrapy实现爬取tumblr上的图片和视频

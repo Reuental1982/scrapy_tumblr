@@ -40,7 +40,7 @@ class VideoSpider(CrawlSpider) :
         else:
             r_url = "https://vtt.tumblr.com/%s.mp4" % (arg_url[-1])
         print r_url
-        item['url'] =  r_url
+        item['url'] = r_url
         yield item
 
     def get_archive_post_video(self, response):
